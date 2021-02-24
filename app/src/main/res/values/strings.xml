@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Heart Helper</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="confirm_data"> Confirm data</string>
+    <string name="age">Age</string>
+    <string name="anaemia">Anaemia</string>
+    <string name="creatinine_phosphokinase">Creatinine phosphokinase</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="ejection_fraction">Ejection fraction</string>
+    <string name="high_blood_pressure">High blood pressure</string>
+    <string name="platelets">Platelets</string>
+    <string name="serum_creatinine">Serum creatinine</string>
+    <string name="serum_sodium">Serum sodium</string>
+    <string name="sex">Sex</string>
+    <string name="smoking">Smoking</string>
+
+
+    <string name="death_event">Death Event</string>
+    <string name="death_event_result">Death Event Result</string>
+
+
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="sex_male">M</string>
+    <string name="sex_female">F</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="image_heart_description">Image of heart</string>
+    <string name="title_activity_result">ResultActivity</string>
+
+
+    <string name="positive_death_result">Your next heart attack shouldn\'t be lethal.</string>
+    <string name="negative_death_result">Your next heart attack could be lethal.\nPlease be careful.</string>
+
+    <string name="snackbar_try_again">Try again</string>
+    <string name="snackbar_error_message">Something went wrong, check your connection and try again.</string>
+
+    <string name="toast_error_message">"Fill all parameters!"</string>
+
+
+    <string name="age_measure_unit">years</string>
+    <string name="creatinine_phosphokinase_measure_unit">mcg/L</string>
+    <string name="ejection_fraction_measure_unit">percentage</string>
+    <string name="platelets_measure_unit">kiloplatelets/mL</string>
+    <string name="serum_creatinine_measure_unit">mg/dL</string>
+    <string name="serum_sodium_measure_unit">mEq/L</string>
+
+</resources>
