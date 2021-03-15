@@ -62,8 +62,8 @@ class ResultActivity : AppCompatActivity() {
             .setAction(getString(R.string.snackbar_try_again)) {
                 if (user != null && requestBody != null) {
                     Log.d(TAG, "createSnackBar: runAzureML starts")
-                    resultViewModel.resetSnackBarState()
                     resultViewModel.runAzureML(requestBody!!)
+                    resultViewModel.resetSnackBarState()
                     Log.d(TAG, "createSnackBar: runAzureML ends")
                 }
             }
@@ -112,8 +112,8 @@ class ResultActivity : AppCompatActivity() {
                     "  \"GlobalParameters\": {}\n" +
                     "}"
 
-            resultViewModel.resetSnackBarState()
             resultViewModel.runAzureML(requestBody!!)
+            resultViewModel.resetSnackBarState()
         }
         Log.d(TAG, "onResume ends")
     }

@@ -24,6 +24,9 @@ class ResultViewModel: ViewModel() {
         get() = _currentSnackBarMLD
 
 
+
+
+
     private fun updateDeathEventResult(data: ArrayList<Double>) {
         Log.d(TAG, "updateDeathEventResult: starts with $data")
         _currentResultMLD.value = data[13] // get only last value we need
@@ -48,8 +51,8 @@ class ResultViewModel: ViewModel() {
                 updateDeathEventResult(arrayResults)
             }
             else {
-                _currentSnackBarMLD.value = true
                 // download failed
+                _currentSnackBarMLD.value = true
                 Log.d(TAG, "runAzureML failed with status $status. Error message is: $result, snackbarvalue: ${_currentSnackBarMLD.value}")
             }
         }
