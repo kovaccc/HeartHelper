@@ -25,8 +25,6 @@ class ResultViewModel: ViewModel() {
 
 
 
-
-
     private fun updateDeathEventResult(data: ArrayList<Double>) {
         Log.d(TAG, "updateDeathEventResult: starts with $data")
         _currentResultMLD.value = data[13] // get only last value we need
